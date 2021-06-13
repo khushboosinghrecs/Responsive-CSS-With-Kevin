@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.col {
+  /* these are now flex items */
+  width: 100%;
+}
+
+.hero {
+  padding: 100px 0;
+  background-color: #23424a;
+  color: #fff;
+}
+
+.hero__text {
+  width: 60%;
+}
+
+.hero p {
+  margin-bottom: 3em;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #23424a;
+  font-weight: 900;
+  background-color: #38cfd9;
+  padding: 0.75em 2em;
+  border-radius: 100px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.75;
+}
+
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="container">
+            <div class="hero__text">
+                <h1>Responsive layouts don’t have to be a struggle</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <a href="#" class="btn">I want to learn</a>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Cheap</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class="col">
+                <h2>Quick</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class="col">
+                <h2>Affordable</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <h2>Cheap</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam.</p>
+    </div>
+    <div class="col">
+        <h2>Quick</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <style>
+        *,
+        *::after,
+        *::before {
+            margin: 0;
+
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            max-width: 1129px;
+        }
+
+        .one_half {
+            width: 100%;
+            height: 50vh;
+            background: #F3EED9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .font1 {
+            font-size: 18px;
+            font-family: Rboto Light;
+            text-transform: uppercase;
+        }
+
+        .font2 {
+            font-family: Playfair Display;
+            line-height: 100%;
+        }
+
+
+        .two_half {
+            display: flex;
+            height: 40vh;
+            flex-direction: column;
+            justify-content: space-evenly;
+            /* text-align: center; */
+            position: relative;
+        }
+
+        .container2 {
+            padding: 2rem 0;
+
+        }
+
+        .two_half_content {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .first_pic {
+            background: #222c2a;
+            padding: 4rem 0;
+
+        }
+
+        .second_pic {
+            background: #824936;
+            padding: 4rem 0;
+
+        }
+
+        .row {
+            display: flex;
+            /* justify-content: space-between; */
+            gap: 10rem;
+
+        }
+ .img_wrap{
+       overflow: hidden;
+       width: 100%;
+ }
+        .pic {
+            width: 100%;
+            align-self: flex-start;
+            transform: scale(1.2);
+        }
+
+        .pic_content {
+            width: 100%;
+            color: white;
+        }
+
+        .pic_content h2 {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="one_half">
+        <p class="font1">Lorem, ipsum dolor.</p>
+        <h1 class="font2" style="color: #B24936;">Responsive layouts don't </h1>
+        <h1 class="font2" style="color: #B24936;"> to be struggle</h1>
+    </div>
+    <div class="container2">
+        <div class="container">
+            <div class="two_half">
+                <h2 class=" font3" style="color: #B24936; text-align: center;">Quality Designs</h2>
+                <div class="two_half_content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi veritatis aperiam et repudiandae
+                        neque autem
+                        nesciunt quas ea, eum distinctio, deleniti dignissimos exercitationem fugiat! Incidunt vitae
+                        natus porro
+                        sapiente itaque.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus facere obcaecati recusandae
+                        beatae eligendi
+                        ea,
+                        error minima voluptatibus consequatur incidunt, placeat ipsa debitis corrupti quibusdam, cum non
+                        adipisci
+                        officia odit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" first_pic">
+        <div class="container row">
+            <div class="pic_content">
+                <h2>Made custom for you</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non, quia veniam enim eius natus
+                    laboriosam
+                    voluptates eligendi reiciendis consectetur?</p>
+            </div>
+            <div class="img_wrap"><img class="pic" src="./image-01.jpg" alt="pic"></div>
+        </div>
+    </div>
+    <div class="second_pic">
+        <div class="container row">
+            <div class="img_wrap"><img class="pic" src="./image-01.jpg" alt="pic"></div>
+            <div class="pic_content">
+                <h2>Created with care</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit velit asperiores sit quisquam saepe
+                    harum
+                    perferendis itaque quos! Dolorum, doloribus.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

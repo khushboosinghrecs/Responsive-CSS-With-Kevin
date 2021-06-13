@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *, *::after, *::before{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .container{
+        width: 80%;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    .row{
+        display: flex;
+    }
+    .col +.col{
+        background:green;
+        margin: 10px;
+        width: 100%;
+    }
+    .hero{
+        padding: 100px 0;
+        background-color: #23424A;
+        color: white;
+    }
+    .hero__text{
+        width: 60%;
+    }
+
+    .hero p{
+        margin-bottom: 3rem;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="container">
+            <div class="hero__text">
+                <h1>Responsive layouts don't have to be a struggle</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium doloremque ut ratione placeat
+                    accusantium nam consequuntur fugit, vel voluptas nobis libero in dignissimos amet aliquid,
+                    cupiditate ipsam quasi voluptatum nesciunt.</p>
+                <a href="#" class="btn">I want to learn</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Cheap</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus reprehenderit vero rem beatae
+                    rerum iure pariatur? Doloribus ratione dolorem consectetur dolorum facere tempora voluptatum
+                    aliquam, quam at veniam nemo ipsam!</p>
+            </div>
+            <div class="col">
+                <h2>Cheap</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum quisquam ipsa quos minus laboriosam
+                    praesentium quaerat porro ex maxime recusandae, rerum facilis esse! Ullam, officia atque. Omnis
+                    inventore aut pariatur.</p>
+            </div>
+            <div class="col">
+                <h2>Affordable</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati porro inventore molestiae quis similique numquam adipisci sapiente provident incidunt exercitationem ut optio, beatae deleniti natus ipsa consequuntur ratione nam modi.</p>
+            </div>
+            <div class="col">
+                <h2>Affordable</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati porro inventore molestiae quis similique
+                    numquam adipisci sapiente provident incidunt exercitationem ut optio, beatae deleniti natus ipsa consequuntur
+                    ratione nam modi.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
