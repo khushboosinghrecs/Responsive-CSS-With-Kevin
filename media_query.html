@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *, *::after, *::before{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0%;
+            font-family: 'Roboto', 'sans-serif';
+            font-size: 1.3rem;
+        }
+        .example{
+            width: 90%;
+            margin: 5em auto;
+
+            padding: 10em 0;
+            background-color: steelblue;
+        }
+
+        @media (min-width:6000px and max-width){
+            .example{
+                background-color:olive;
+            }
+
+        }
+
+           @media (min-width:6000px and max-width){
+            .example{
+                background-color:orangered;
+            }
+           }
+
+        @media(max-width: 600px){
+
+        }
+    </style>
+
+</head>
+<body>
+<div class="example"></div>
+</body>
+</html>
