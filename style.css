@@ -1,0 +1,16 @@
+ body {
+            background: black;
+            font-size: 22px;
+        }
+
+        a:link {
+            color: red;
+        }
+
+        a:visited {
+            color: wheat;
+        }
+
+        a:hover {
+            cursor: pointer;
+        }
